@@ -1,12 +1,4 @@
-/*
- * Selected | a collection of songs that I love
- * v0.1.18
- * also as a showcase that shows how to sync lyric with the HTML5 audio tag
- * Wayou  Apr 5th,2014
- * view on GitHub:https://github.com/wayou/selected
- * see the live site:http://wayou.github.io/selected/
- * songs used in this project are only for educational purpose. please don't distribute or sell
- */
+
 window.onload = function() {
     new Selected().init();
 };

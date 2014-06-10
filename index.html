@@ -8,6 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>吴克羣专辑精选</title>
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="css/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
     </head>
     <body>
         <header>
@@ -113,6 +116,32 @@
                 </div>
             </div>
         </div>
+<div class="container">
+	<div class="main">
+		<ul id="cbp-bislideshow" class="cbp-bislideshow">
+			<li><img src="images/1.jpg" alt="image01"/></li>
+			<li><img src="images/2.jpg" alt="image02"/></li>
+			<li><img src="images/3.jpg" alt="image03"/></li>
+			<li><img src="images/4.jpg" alt="image04"/></li>
+			<li><img src="images/5.jpg" alt="image05"/></li>
+			<li><img src="images/6.jpg" alt="image06"/></li>
+		</ul>
+		<div id="cbp-bicontrols" class="cbp-bicontrols">
+			<span class="cbp-biprev"></span>
+			<span class="cbp-bipause"></span>
+			<span class="cbp-binext"></span>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+<script type="text/javascript" src="js/cbpBGSlideshow.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	cbpBGSlideshow.init();
+});
+</script>
         <script src="scripts/selected.js"></script>
         <script>
                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
